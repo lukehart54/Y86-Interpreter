@@ -1,0 +1,74 @@
+--- outputs/A_opq_of_debug.txt	2021-12-10 21:10:58.736743535 -0500
++++ expected/A_opq_of_debug.txt	2021-10-17 18:46:30.000000000 -0400
+@@ -36,7 +36,7 @@
+ 
+ Executing: addq %rbx, %rax
+ Y86 CPU state:
+-  %rip: 0000000000000116   flags: Z0 S0 O0     AOK
++  %rip: 0000000000000116   flags: Z0 S1 O1     AOK
+   %rax: 8000000000000000    %rcx: 0000000000000000
+   %rdx: 0000000000000000    %rbx: 0000000000000001
+   %rsp: 0000000000000000    %rbp: 0000000000000000
+@@ -48,7 +48,7 @@
+ 
+ Executing: irmovq 0x8000000000000000, %rax
+ Y86 CPU state:
+-  %rip: 0000000000000120   flags: Z0 S0 O0     AOK
++  %rip: 0000000000000120   flags: Z0 S1 O1     AOK
+   %rax: 8000000000000000    %rcx: 0000000000000000
+   %rdx: 0000000000000000    %rbx: 0000000000000001
+   %rsp: 0000000000000000    %rbp: 0000000000000000
+@@ -60,7 +60,7 @@
+ 
+ Executing: subq %rbx, %rax
+ Y86 CPU state:
+-  %rip: 0000000000000122   flags: Z0 S0 O0     AOK
++  %rip: 0000000000000122   flags: Z0 S0 O1     AOK
+   %rax: 7fffffffffffffff    %rcx: 0000000000000000
+   %rdx: 0000000000000000    %rbx: 0000000000000001
+   %rsp: 0000000000000000    %rbp: 0000000000000000
+@@ -72,7 +72,7 @@
+ 
+ Executing: irmovq 0xffffffffffffffff, %rbx
+ Y86 CPU state:
+-  %rip: 000000000000012c   flags: Z0 S0 O0     AOK
++  %rip: 000000000000012c   flags: Z0 S0 O1     AOK
+   %rax: 7fffffffffffffff    %rcx: 0000000000000000
+   %rdx: 0000000000000000    %rbx: ffffffffffffffff
+   %rsp: 0000000000000000    %rbp: 0000000000000000
+@@ -84,7 +84,7 @@
+ 
+ Executing: irmovq 0x8000000000000000, %rax
+ Y86 CPU state:
+-  %rip: 0000000000000136   flags: Z0 S0 O0     AOK
++  %rip: 0000000000000136   flags: Z0 S0 O1     AOK
+   %rax: 8000000000000000    %rcx: 0000000000000000
+   %rdx: 0000000000000000    %rbx: ffffffffffffffff
+   %rsp: 0000000000000000    %rbp: 0000000000000000
+@@ -96,7 +96,7 @@
+ 
+ Executing: addq %rbx, %rax
+ Y86 CPU state:
+-  %rip: 0000000000000138   flags: Z0 S0 O0     AOK
++  %rip: 0000000000000138   flags: Z0 S0 O1     AOK
+   %rax: 7fffffffffffffff    %rcx: 0000000000000000
+   %rdx: 0000000000000000    %rbx: ffffffffffffffff
+   %rsp: 0000000000000000    %rbp: 0000000000000000
+@@ -108,7 +108,7 @@
+ 
+ Executing: irmovq 0x7fffffffffffffff, %rax
+ Y86 CPU state:
+-  %rip: 0000000000000142   flags: Z0 S0 O0     AOK
++  %rip: 0000000000000142   flags: Z0 S0 O1     AOK
+   %rax: 7fffffffffffffff    %rcx: 0000000000000000
+   %rdx: 0000000000000000    %rbx: ffffffffffffffff
+   %rsp: 0000000000000000    %rbp: 0000000000000000
+@@ -120,7 +120,7 @@
+ 
+ Executing: subq %rbx, %rax
+ Y86 CPU state:
+-  %rip: 0000000000000144   flags: Z0 S0 O0     AOK
++  %rip: 0000000000000144   flags: Z0 S1 O1     AOK
+   %rax: 8000000000000000    %rcx: 0000000000000000
+   %rdx: 0000000000000000    %rbx: ffffffffffffffff
+   %rsp: 0000000000000000    %rbp: 0000000000000000

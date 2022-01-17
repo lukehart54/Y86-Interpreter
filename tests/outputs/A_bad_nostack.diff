@@ -1,0 +1,10 @@
+--- outputs/A_bad_nostack.txt	2021-12-10 21:11:06.012817252 -0500
++++ expected/A_bad_nostack.txt	2021-10-17 18:46:30.000000000 -0400
+@@ -1,6 +1,6 @@
+ Beginning execution at 0x0100
+ Y86 CPU state:
+-  %rip: 0000000000000109   flags: Z0 S0 O0     INS
++  %rip: 000000000000010a   flags: Z0 S0 O0     ADR
+   %rax: 0000000000000000    %rcx: 0000000000000000
+   %rdx: 0000000000000000    %rbx: 0000000000000000
+   %rsp: 0000000000000000    %rbp: 0000000000000000
